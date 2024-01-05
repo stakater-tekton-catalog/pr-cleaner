@@ -1,2 +1,15 @@
-# pr-cleaner
-A tekton task for pr-cleaner
+# Stakater Cluster Task for PR Cleaner
+
+## Local Development
+
+### Install
+
+```
+tilt up
+```
+
+### Teardown
+
+```
+tilt down
+```
