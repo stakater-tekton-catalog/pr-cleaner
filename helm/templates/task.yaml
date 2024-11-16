@@ -35,7 +35,7 @@ spec:
         memory: 1Gi
   steps:
     - name: update-cd-repo-on-merge
-      image: ghcr.io/stakater/pipeline-toolbox:v0.0.37
+      image: ghcr.io/stakater/pipeline-toolbox:v0.0.42
       command: ["/bin/bash"]
       env:
         - name: WORKSPACE_SSH_DIRECTORY_BOUND
